@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application' version '8.13.0'
+}
+
+android {
+    namespace 'local.notion.pinnedpage'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'local.notion.pinnedpage'
+        minSdk 35
+        targetSdk 36
+        versionCode 8
+        versionName '0.1.7'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    compileOnly 'io.github.libxposed:api:102.0.0'
+    testImplementation 'junit:junit:4.13.2'
+}

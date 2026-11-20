@@ -1,0 +1,4 @@
+<resources>
+    <string name="module_name">Corrección de atajos de Notion</string>
+    <string name="module_description">Abre la página elegida al tocar un icono creado con Fijar página.</string>
+</resources>
